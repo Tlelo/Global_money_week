@@ -11,7 +11,7 @@
 				<section class="welcome_descripcion">
 
 					<section class="span1">
-						<h1>Te damos la bienvenido al</h1>
+						<h1>Te damos la <br>bienvenido al</h1>
 						<div>
 							<img src="<?php echo IMG;?>Global_money_week_mexico_2023.svg" alt="">
 						</div>
@@ -19,17 +19,17 @@
 					</section>
 
 					<section class="span2">
-						<p>La semana anual de concientización financiera que te invita a descubrir diferentes formas en las que puedes tomar decisiones financieras informadas, alcanzar tus metas y construir tu futuro.</p>
+						<p>La semana anual de concientización financiera que te invita a <br>descubrir diferentes formas en las que puedes tomar decisiones <br>financieras informadas, alcanzar tus metas y construir tu futuro.</p>
 
-						<p>Los últimos dos años, en nuestro país, han participado más de un millón y medio de niñas, niños, jóvenes y adultos.</p>
+						<p>Los últimos dos años, en nuestro país, han participado más de un<br> millón y medio de niñas, niños, jóvenes y adultos.</p>
 
 						<p class="fcolor1">¡Tú también puedes fomar parte de este gran evento!</p>
 
-						<p>Para ello te invitamos a participar en el Espacio Global Money Week México, un escenario donde podrás acceder a actividades educativas presenciales o digitales.</p>
+						<p>Para ello te invitamos a participar en el Espacio Global Money Week<br> México, un escenario donde podrás acceder a actividades educativas<br> presenciales o digitales.</p>
 
-						<div>
-							<h2>¡Aparta las fechas!</h2>
-							<h3>Del 20 al 31 de marzo</h3>
+						<div class="home_txt_fecha">
+							<h2>¡Aparta las fechas!<br>
+							<span>Del 20 al 31 de marzo</span></h2>
 						</div>		
 					</section>
 
