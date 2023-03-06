@@ -1,0 +1,16 @@
+.page_presentacion{
+  main{
+    @media screen and (max-width: 800px){
+      height: 1100px;
+    }
+
+    h1{
+      color: var(--color3);
+      font-size: 33px;
+    }
+
+    p{
+      color: white;
+    }
+  }
+}

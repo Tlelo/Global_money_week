@@ -1,0 +1,20 @@
+.page_cartelera{
+
+  main{
+
+    @media screen and (max-width: 800px){
+      height: 1100px;
+    }
+
+    .row{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      h1{
+        color: var(--color3);
+      }
+    }
+  }
+
+}

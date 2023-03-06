@@ -1,0 +1,26 @@
+@import "mixin";
+
+/*
+@font-face{
+  @include font_file( "moonlight", bold, normal, "../fonts/Moonlights-on-the-Beach.ttf", normal );
+}
+@font-face{
+  @include font_file( "avenir", bold, normal, "../fonts/Avenir_Book.ttf", normal );
+}
+@font-face{
+  @include font_file( "avenir", 400, normal, "../fonts/Avenir_Medium.ttf", normal );
+}
+@font-face{
+  @include font_file( "avenir", 800, normal, "../fonts/Avenir-Black.ttf", normal );
+}
+@font-face{
+  @include font_file( "avenir", 100, normal, "../fonts/Avenir-Light.ttf", normal );
+}
+*/
+
+@font-face{
+  @include font_file( "helveticaCn", bold, normal, "../fonts/HelveticaNeueLTStdBdCn.otf", normal );
+}
+@font-face{
+  @include font_file( "barlow", bold, normal, "../fonts/Barlow_Bold.ttf", normal );
+}

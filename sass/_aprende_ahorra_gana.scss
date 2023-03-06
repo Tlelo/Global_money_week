@@ -1,0 +1,13 @@
+.aprende_ahorra_gana{
+  span{
+    color: var(--color1);
+  }
+  p{
+    color: var(--color5);
+    font-family: "barlow";
+    font-size: 24px;
+    @media screen and (max-width: 600px){
+      text-align: center;
+    }
+  }
+}
