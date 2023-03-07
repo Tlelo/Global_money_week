@@ -6,6 +6,9 @@
 ?>
 <main>
 	<section class="container">
+		<div class="txt_presentacion">
+
+		
 		<h1>Presentación</h1>
 
 		<p>El Global Money Week es una campaña internacional de concientización que
@@ -23,7 +26,7 @@
 		en nuestras redes sociales. </p>
 
 		<p>También, distintos aliados del evento estarán organizando actividades presenciales y digitales en diferentes estados de la República Mexicana.</p>
-
+		</div>
 	</section>
 
 	<img src="./img/bg_presentacion.png" class="bg_desk" alt="">

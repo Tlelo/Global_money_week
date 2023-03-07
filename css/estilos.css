@@ -70,7 +70,7 @@
 html,
 body {
     font-family: titilium;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 body {
@@ -123,7 +123,7 @@ em,
 code,
 pre {
     font-family: titilium;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 small {
@@ -462,7 +462,7 @@ span) {
     background-color: white;
     border-radius: 15px;
     height: 7px;
-    width: 80px;
+    width: 55px;
 }
 
 @media screen and (min-width: 800px) {
@@ -657,7 +657,7 @@ span) {
 
 @media (max-width: 620px) {
     .page_home .welcome_descripcion .span1 h1 {
-        font-size: 30px;
+        font-size: 28px;
     }
 }
 
@@ -682,7 +682,7 @@ span) {
 }
 
 .page_home .welcome_descripcion .span1 img {
-    width: 75%;
+    width: 70%;
     float: right;
 }
 
@@ -742,6 +742,21 @@ span) {
     color: white;
 }
 
+
+/*Seccion cartelera*/
+
+@media screen and (min-width: 801px) {
+    .row_contenido .span2:before {
+        content: "";
+        width: 1px;
+        height: 25%;
+        background-color: white;
+        position: absolute;
+        top: 4rem;
+        transform: translateX(-1rem);
+    }
+}
+
 @media screen and (max-width: 800px) {
     .page_cartelera main {
         height: 1100px;
@@ -750,13 +765,88 @@ span) {
 
 .page_cartelera main .row {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 1rem;
 }
 
 .page_cartelera main .row h1 {
     color: var(--color3);
+    font-family: "titilium-bold";
+    font-size: 45px;
 }
+
+@media (min-width: 800px) {
+    .page_cartelera main .row h1 {
+        font-size: 45px;
+    }
+}
+
+.row_contenido {
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-left: 5%;
+    text-align: justify;
+}
+
+@media (min-width: 800PX) {
+    .row_contenido {
+        width: 40%;
+        display: block ruby;
+        margin-left: 12%;
+    }
+}
+
+.row_contenido .span1 {
+    text-align: center;
+}
+
+@media (min-width: 800px) {
+    .row_contenido .span1 {
+        line-height: 50px;
+    }
+}
+
+.row_contenido .span2 {
+    color: var(--color4);
+    margin-left: 0%;
+}
+
+@media (min-width: 800px) {
+    .row_contenido .span2 {
+        margin-left: 8%;
+    }
+}
+
+.btn_proximamente--cartelera {
+    margin-top: 1rem;
+    margin-left: 5%;
+}
+
+@media (min-width: 800px) {
+    .btn_proximamente--cartelera {
+        margin-top: 7rem;
+        margin-left: 12%;
+    }
+}
+
+.txt_descripcion--cartelera {
+    color: var(--color4);
+    margin-left: 5%;
+    margin-top: 3rem;
+}
+
+@media (min-width: 800px) {
+    .txt_descripcion--cartelera {
+        margin-left: 12%;
+    }
+}
+
+.txt_descripcion--cartelera span {
+    color: var(--color3);
+}
+
+
+/*Seccion Recursos*/
 
 .page_recursos h1 {
     color: var(--color3);
@@ -799,3 +889,20 @@ span) {
 
 
 /*# sourceMappingURL=estilos.css.map */
+
+
+/*Seccion presentacion*/
+
+.txt_presentacion {
+    width: 90%;
+    text-align: justify;
+    margin-left: 1rem;
+}
+
+@media (min-width: 800px) {
+    .txt_presentacion {
+        width: 50%;
+        text-align: justify;
+        margin-left: 5rem;
+    }
+}
