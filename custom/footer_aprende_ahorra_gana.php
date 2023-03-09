@@ -1,3 +1,3 @@
 <section class="aprende_ahorra_gana">
-	<p><span>#</span>AprendeAhorraGana</p>
+	<h2><span>#</span>AprendeAhorraGana</h2>
 </section>

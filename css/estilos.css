@@ -524,6 +524,10 @@ span) {
     font-size: 24px;
 }
 
+.aprende_ahorra_gana h2 {
+    text-align: center;
+}
+
 @media screen and (max-width: 600px) {
     .aprende_ahorra_gana p {
         text-align: center;
@@ -596,6 +600,10 @@ span) {
     .bloomberg .content img {
         width: 90px;
     }
+}
+
+.bloomberg .span1 h2 {
+    font-size: 17px;
 }
 
 
