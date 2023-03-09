@@ -25,7 +25,7 @@
 
 						<p class="fcolor1">¡Tú también puedes fomar parte de este gran evento!</p>
 
-						<p>Para ello te invitamos a participar en el Espacio Global Money Week<br> México, un escenario donde podrás acceder a actividades educativas<br> presenciales o digitales.</p>
+						<p>Para ello te invitamos a participar en el <span>Espacio Global Money Week<br> México, </span>un escenario donde podrás acceder a actividades educativas<br> presenciales o digitales.</p>
 
 						<div class="home_txt_fecha">
 							<h2>¡Aparta las fechas!<br>
