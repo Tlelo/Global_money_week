@@ -1,6 +1,6 @@
-export function btn_movil_menu( modulo, open, close ){
+export function btn_movil_menu( modulo, open ){
   const btn_open = document.querySelector( open );
-  //const btn_close = document.querySelector( close );
+  
   const html_modulo = document.querySelector( modulo );
   
   btn_open.addEventListener("click",function(e){

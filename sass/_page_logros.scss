@@ -1,0 +1,117 @@
+.page_logros{
+  h1{
+    color: var(--color3);
+    font-family: "barlow";
+    font-size: 40px;
+    @media screen and (min-width: 801px){
+      padding-left: 4rem;
+    }
+    @media screen and (max-width: 800px){
+      font-size: 32px;
+      margin-top: 5rem;
+      text-align: center;
+    }
+  }
+  .content_card_logros{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 0 auto;
+    width: 60%;
+
+    @media screen and (max-width: 800px){
+      flex-direction: column;
+    }
+
+    & .card{
+      display: grid;
+      font-family: "helveticaCn";
+      grid-template-rows: 70% auto;
+
+      & .text{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        position: relative;
+        text-align: center;
+        z-index: 2;
+
+        & img{
+          margin: 0 auto;
+          padding-top: .5rem;
+          width: 117px;
+          @media screen and (min-width: 481px) and (max-width: 800px){
+            width: 55%;
+          }
+          @media screen and (min-width: 320px) and (max-width: 480px){
+            width: 50%;
+          }
+        }
+        h3{
+          line-height: 30px;
+          margin-top:2rem;
+          margin-bottom: 7px;
+          font-size:35px;
+          @media screen and (min-width: 801px) and (max-width: 1100px){
+            font-size:27px;
+          }
+          @media screen and (min-width: 600px) and (max-width: 800px){
+            font-size:48px;
+            margin-top: 4rem;
+            margin-bottom: 10px;
+          }
+          @media screen and (min-width: 481px) and (max-width: 600px){
+            font-size:45px;
+          }
+        }
+        p{
+          line-height: 21px;
+          margin-top:0;
+          padding: 0 10%;
+          font-size: 22px;
+          @media screen and (min-width: 801px) and (max-width: 1100px){
+            font-size:17px;
+          }
+          @media screen and (min-width: 600px) and (max-width: 800px){
+            font-size:30px;
+            line-height: 37px;
+          }
+          @media screen and (min-width: 481px) and (max-width: 600px){
+            line-height: 25px;
+            font-size:28px;
+          }
+        }
+      }
+
+      & img{
+        grid-column: 1/2;
+        grid-row: 1/3;
+        height: 100%;
+      }
+
+      &:last-child{
+        & h3{
+          @media screen and (min-width: 801px) and (max-width: 1100px){
+            font-size:25px;
+          }
+        }
+      }
+    }
+  }
+
+  .bg_desk{
+    top: 0;
+    left: 0;
+    bottom:0;
+    right: 0;
+    width: 100%;
+  }
+
+  .bg_movil{
+    top: 0;
+    left: 0;
+    bottom:0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+  }
+}

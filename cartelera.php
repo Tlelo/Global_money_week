@@ -26,7 +26,8 @@
 		<div class="txt_descripcion--cartelera">
 			<p>Te esperamos en el MIDE, en las fechas del Global Money Week<br> tendrás acceso a una promoción especial.</p>
 
-			<h2><span>Descárgala aquí.</span></h2>
+			<h2><a href="Downloads/BOLETO2x1.pdf" target="_blank"><span>Descárgala aquí.</span></a></h2>
+			
 		</div>
 		
 

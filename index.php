@@ -11,7 +11,7 @@
 				<section class="welcome_descripcion">
 
 					<section class="span1">
-						<h1>Te damos la <br>bienvenido al</h1>
+						<h1>Te damos la <br>bienvenida al</h1>
 						<div>
 							<img src="<?php echo IMG;?>Global_money_week_mexico_2023.svg" alt="">
 						</div>
