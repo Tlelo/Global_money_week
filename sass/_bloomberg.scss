@@ -12,6 +12,9 @@
     }
 
     p{
+      @media screen and (min-width: 800px){
+        margin-bottom:6px;
+      }
       @media screen and (max-width: 600px){
         font-size: 11px;
         margin-bottom:5px;

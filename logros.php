@@ -11,38 +11,42 @@
 		<div class="content_card_logros">
 
 			<div class="card">
+				<div class="header">
+					<img src="<?php echo IMG;?>item_logro_1.svg" alt="">
+				</div>
+				
 				<div class="text">
-					<div class="header">
-						<img src="<?php echo IMG;?>item_logro_1.svg" alt="">
-					</div>
 						<h3>1,592,816</h3>
 						<p>niños, niñas, adolescentes y adultos participaron</p>
 				</div>
 				
-				<img src="<?php echo IMG;?>logros_card.png" alt="">
+				<img src="<?php echo IMG;?>logros_card.png" alt="" class="img_card">
 			</div>
 
 			<div class="card">
+				<div class="header">
+					<img src="<?php echo IMG;?>item_logro_2.svg" alt="">
+				</div>
+
 				<div class="text">
-					<div class="header">
-						<img src="<?php echo IMG;?>item_logro_2.svg" alt="">
-					</div>
 					<h3>48 líderes</h3>
 					<p>de educación financiera sumaron esfuerzos</p>
 				</div>
 
-				<img src="<?php echo IMG;?>logros_card.png" alt="">
+				<img src="<?php echo IMG;?>logros_card.png" alt="" class="img_card">
 			</div>
 
 			<div class="card">
+				<div class="header">
+					<img src="<?php echo IMG;?>item_logro_3.svg" alt="">
+				</div>
+
 				<div class="text">
-					<div class="header">
-						<img src="<?php echo IMG;?>item_logro_3.svg" alt="">
-					</div>
 					<h3>439<br> actividades y recursos</h3>
 					<p>educativos brindados</p>
 				</div>
-				<img src="<?php echo IMG;?>logros_card.png" alt="">
+
+				<img src="<?php echo IMG;?>logros_card.png" alt="" class="img_card">
 			</div>
 		</div>
 	</section>

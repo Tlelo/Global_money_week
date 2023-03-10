@@ -19,13 +19,13 @@
 					</section>
 
 					<section class="span2">
-						<p>La semana anual de concientización financiera que te invita a <br>descubrir diferentes formas en las que puedes tomar decisiones <br>financieras informadas, alcanzar tus metas y construir tu futuro.</p>
+						<p>La semana anual de concientización financiera que te invita a descubrir diferentes formas en las que puedes tomar decisiones financieras informadas, alcanzar tus metas y construir tu futuro.</p>
 
-						<p>Los últimos dos años, en nuestro país, han participado más de un<br> millón y medio de niñas, niños, jóvenes y adultos.</p>
+						<p>Los últimos dos años, en nuestro país, han participado más de un millón y medio de niñas, niños, jóvenes y adultos.</p>
 
 						<p class="fcolor1">¡Tú también puedes fomar parte de este gran evento!</p>
 
-						<p>Para ello te invitamos a participar en el <span>Espacio Global Money Week<br> México, </span>un escenario donde podrás acceder a actividades educativas<br> presenciales o digitales.</p>
+						<p>Para ello te invitamos a participar en el <span>Espacio Global Money Week México, </span>un escenario donde podrás acceder a actividades educativas presenciales o digitales.</p>
 
 						<div class="home_txt_fecha">
 							<h2>¡Aparta las fechas!<br>

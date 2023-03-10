@@ -7,35 +7,43 @@
 <main>
 	<section class="container">
 
-		<div class="row">
-			<div class="row_contenido">
+		<div class="cartelera_contenido">
+			<div class="header_text">
+
 				<div class="span1">
 					<h1>Cartelera de <br>actividades</h1>
 				</div>
+
 				<div class="span2">
 					<p>Planear es una habilidad financiera vital. Así, planificar tu participación en el GMW será muy importante para que no te pierdas de nada: consulta o descarga la cartelera de actividades disponibles, organiza tu agenda y participa en tantas como tú desees.</p>
 				</div>
-			</div>
-			
-		</div>
-	
-		<section class="btn_proximamente--cartelera">
-			<img src="<?php echo IMG;?>btn_proximamente.png" alt="">
-		</section>
-		
-		<div class="txt_descripcion--cartelera">
-			<p>Te esperamos en el MIDE, en las fechas del Global Money Week<br> tendrás acceso a una promoción especial.</p>
 
-			<h2><a href="Downloads/BOLETO2x1.pdf" target="_blank"><span>Descárgala aquí.</span></a></h2>
-			
-		</div>
+			</div>
+
+			<section class="btn_proximamente--cartelera">
+				<img src="<?php echo IMG;?>actividades_presenciales.png" alt="actividades_presenciales">
+				<img src="<?php echo IMG;?>actividades_digitales.png" alt="actividades_digitales">
+				<img src="<?php echo IMG;?>actividades_en_el_interior_de_la_republica.png" alt="actividades_en_el_interior_de_la_republica">
+			</section>
 		
+			<div class="txt_descripcion--cartelera">
+				<p>Te esperamos en el MIDE, en las fechas del Global Money Week<br> tendrás acceso a una promoción especial.</p>
+
+				<a href="./Downloads/BOLETO2x1.pdf" target="_blank" title="😉 Entradas 2X1 al Mide | Muse Interactivo de Economia">
+					<span>Descárgala aquí.</span>
+				</a>
+				
+			</div>
+		</div>
 
 	</section>
-<div class="img--cartelera">
-	<img src="./img/bg_cartelera.png" class="bg_desk" alt="">
-	<img src="./img/bg_cartelera_movil.png" class="bg_movil" alt="">
-</div>
+
+	<div class="img--cartelera">
+		<img src="./img/bg_cartelera_forma.svg" class="bg_desk_1" alt="">
+		<img src="./img/bg_cartelera.png" class="bg_desk" alt="">
+		<img src="./img/bg_cartelera_movil_forma.svg" class="bg_movil_1" alt="">
+		<img src="./img/bg_cartelera_movil.png" class="bg_movil" alt="">
+	</div>
 	
 </main>
 
